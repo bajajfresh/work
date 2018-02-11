@@ -1,0 +1,1229 @@
+@import 'fontawesomecss/font-awesome.min.css';
+
+/************* Eric Meyer CSS Reset ***************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img { max-width: 100%; }
+
+* { box-sizing: border-box; }
+
+/*********** END OF RESET ***********/
+
+
+
+
+body {
+}
+
+#container {
+  width: 100%;
+  margin: auto;
+	overflow: hidden;
+}
+
+section, div {
+  overflow: hidden;
+}
+
+img {
+  display: block;
+}
+
+/*********** Header Styles ***********/
+
+header {
+  width: 100vw;
+  height: 60vw;
+/*  background: #262324;*/
+
+/**	background: url(images/marble.jpg);
+	background-repeat: round;
+	background-attachment: fixed;**/
+
+  position: relative;
+  overflow: hidden;
+  /*padding-bottom: 10vw;*/
+}
+
+#mySketch{
+	z-index: -1;
+	position: absolute;
+}
+
+header img {
+  margin: auto;
+  padding: 0 0 0 0;
+}
+
+header h1 {
+  text-align: center;
+  z-index: +1;
+  left: 43.5%;
+  top: 15vw;
+  line-height: 4vh;
+  font-size: 11.5vh;
+}
+
+header p {
+	margin-top: -30px;
+	text-align: center;
+	z-index: -1;
+  left: 43.5%;
+}
+
+header p:hover {
+  color: #c83c26;
+	margin-top: -25px;
+  transition: .3s;
+}
+header a {
+	color: black;
+}
+
+.head {
+  padding-top:20vw;
+  color: black;
+  text-align: center;
+  font-size: 10vw;
+  padding-bottom: 15vw;
+  letter-spacing: .5vw;
+}
+/*********** Navigation Styles ***********/
+
+nav {
+  overflow: hidden;
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  color: black;
+}
+
+nav img {
+	float:left;
+	padding: 13px 13px;
+	height: 100%;
+	width: auto;
+}
+
+nav ul {
+	padding: 20px 15px;
+
+}
+
+nav ul li {
+	display: inline-block;
+	float: right;
+	text-align: center;
+	font-size: 1.9vw;
+	padding: 5px;
+	text-transform: uppercase;
+  color: black;
+	border: 3px solid black;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+
+}
+
+/*********** Section 1 Styles ***********/
+
+#section1 {
+  width: 100vw;
+  height: 50vw;
+  background: #AD655F;
+  padding-bottom: 3%;
+}
+
+#section1 .small {
+	display: none;
+}
+
+#section1 a {
+	display: inline-block;
+	float: right;
+	text-align: center;
+	font-size: 1.5vw;
+	padding: 25px 30px 25px 30px;
+	text-transform: uppercase;
+  color: white;
+	border: 3px solid white;
+	text-decoration: none;
+	margin-top: 10vw;
+	margin-right: 20vw;
+
+}
+
+#section1 a:hover {
+	color: #B0DEFF;
+	border: 3px solid;
+	transition: .3s;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+#section1 img {
+  margin: auto;
+  padding: 50px 0 0 0;
+}
+
+#section1 p {
+  width: 65%;
+	margin-top: 1.4vw;
+	padding-left: 10vw;
+	position: relative;
+}
+
+#section1 p {
+  color: white;
+  font-family: "Courier";
+  font-size: 3vw;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: type 5s steps(60, end);
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+
+
+}
+
+#section1 p:nth-child(2) {
+  animation: type2 5s steps(55, end);
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+
+
+}
+
+#section1 p:nth-child(3) {
+  animation: type2 5s steps(50, end);
+	animation-iteration-count: infinite;
+	animation-delay: 2.2s;
+
+
+}
+#section1 p:nth-child(4) {
+  animation: type2 5s steps(45, end);
+	animation-iteration-count: infinite;
+	animation-delay: 2.4s;
+
+
+}
+
+#section1 span {
+  animation: blink 1s infinite;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
+}
+
+@keyframes blink {
+  to {
+    opacity: .0;
+  }
+}
+
+
+/*********** Section 2 Styles ***********/
+
+#section2 {
+  width: 100%;
+  height: 70vw;
+  background: white;
+  color: #454545;
+  padding-bottom: 3%;
+}
+
+#section2 img {
+  margin: auto;
+  float: left;
+	margin-left: 10vw;
+	width: 30%;
+	height: 10%;
+}
+
+#section2 h3 {
+	display: block;
+  padding: 15px;
+	color: white;
+	margin: auto;
+	background-color: black;
+	width: 200px;
+  border: solid black 2px;
+}
+#section2 iframe {
+  float: left;
+	margin-top: 5vw;
+	margin-left: 6vw;
+
+}
+
+#section2 object h2 {
+	width: 45%;
+	float: right;
+	margin-right: 7vw;
+	margin-top: 14vw;
+	font-size: 300%;
+}
+
+#section2 object #text {
+  width: 45%;
+	float: right;
+	margin-right: 5vw;
+	margin-top: 1vw;
+
+}
+
+#section2 article a {
+	color: #B0DEFF;
+	text-decoration: none;
+  font-size: 90%;
+  float: right;
+  width: 45%;
+  margin: 0 10% 20% 0;
+  padding-top: 2%;
+  text-align: center;
+}
+
+#section2 article a:hover {
+	color: black;
+	transition: .3s;
+	font-family: 'Roboto', sans-serif;
+}
+
+#section2 canvas {
+	margin: auto;
+	width: 500px;
+	border: 5px solid black;
+	display: block;
+}
+
+/*********** Section 3 Styles ***********/
+
+#section3 {
+  width: 100%;
+  height: 100%;
+  background-image: url("images/backimageop.png");
+  padding-bottom: 5%;
+	background-size: cover;
+	color: black;
+}
+
+#section3 img {
+  float: right;
+  margin: auto;
+  padding: 5% 12% 0 1%;
+}
+
+#section3 article a {
+	display: block;
+	text-align: center;
+	margin: auto;
+	font-size: 1.5vw;
+	width: 200px;
+	padding: 15px;
+	text-transform: uppercase;
+  color: black;
+	border: 3px solid black;
+	text-decoration: none;
+
+}
+
+#section3 a:hover {
+	color: black;
+	border: 3px solid;
+	background-color: #B0DEFF;
+	transition: .3s;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+#section3 article {
+	font-size: 2vw;
+	text-align: center;
+	margin: auto;
+ 	width: 30%;
+  padding: 100px 0 0 0px;
+}
+
+
+
+/*********** Section 4 Styles ***********/
+
+#section4 {
+  width: 100%;
+  height: 100%;
+  background:#ffefdb;
+  color: #454545;
+  padding-bottom: 4%;
+}
+
+#section4 img {
+  margin: auto;
+  padding-top: 40px;
+}
+
+#section4 p {
+  margin: auto;
+  width: 65%;
+  padding-top: 45px;
+}
+
+/*********** Section 5 Styles ***********/
+
+#section5 {
+  width: 100%;
+  height: 40vw;
+  background:	#ffffff;
+  color: #454545;
+  padding-bottom: 3%;
+	padding-top: 2%;
+}
+
+#section5 img {
+  margin: auto;
+	width: 60.3333%;
+	height: 50%;
+	border: 3px solid black;
+
+}
+
+#section5 img:hover {
+	border: 3px solid #B0DEFF;
+
+}
+#section5 .small {
+	display: none;
+}
+
+#section5 p {
+  margin: auto;
+  width: 65%;
+  padding-top: 70px;
+}
+
+#section5 h2 {
+	display: inline;;
+ 	text-align: center;
+	margin-top: -2vw;
+	float: left;
+	width: 30%;
+ 	font-size: 300%;
+ }
+ #section5 h3 {
+ 	display: block;
+  padding: 15px;
+ 	color: white;
+ 	margin: auto;
+	margin-top: 10vw;
+	margin-bottom: none;
+ 	background-color: black;
+ 	width: 200px;
+  border: solid black 2px;
+ }
+
+ #section5 h3:hover {
+ 	display: block;
+  padding: 15px;
+ 	color: black;
+ 	margin: auto;
+	margin-top: 10vw;
+ 	background-color: #B0DEFF;
+ 	width: 200px;
+  border: solid #B0DEFF 2px;
+ }
+
+ #section5 h3 a {
+	 text-decoration: none;
+	 color:#B0DEFF;
+	 padding: 25px;
+ }
+
+ #section5 h3 a:hover {
+color: black;
+ }
+
+
+/****************** Grid ******************/
+
+.column {
+	 float: left;
+	 margin-left:2%;
+	 padding-top: 3vw;
+
+ }
+.column:first-of-type {
+	margin-left:0;
+}
+.wrapper {
+		width:100%;
+	}
+
+.one-third {
+	width:30.6666666667%;
+	padding-left: 5%;
+ }
+
+/*********** Section 6 Styles ***********/
+
+#section6 {
+  width: 100%;
+  height: 35vw;
+  background:	#AD655F;
+}
+
+#section6 h1 {
+	text-align: center;
+  margin-top: 5vw;
+}
+
+#section6 article {
+  float: right;
+  width: 45%;
+  margin: 1% 10% 0 0;
+}
+
+/*********** Contact Me Form Styles ***********/
+
+#contactme {
+  width: 100%;
+  height: 60%;
+  background: #AD655F;
+  padding-bottom: 2%;
+	text-align: center;
+}
+
+#contactme #form {
+display: block;
+padding-top: 5px;
+margin-left: 25%;
+margin-right:30%;
+width: 40%;
+background: #AD655F;
+
+
+}
+
+#nameID, #messageID, #emailID {
+	display: inline-block;
+	padding: none;
+	margin-left: 25%;
+	margin-right: 45%;
+	width: 50%;
+	color: black;
+}
+
+#submitbutton {
+	margin-left: 25%;
+	margin-right:35%;
+	width: 50%;
+	margin-top: -5px;
+	background: #AD655F;
+}
+
+#submitbutton:hover {
+	background: #B0DEFF;
+}
+::-webkit-input-placeholder { color: #333333; opacity: 1 !important; }
+:-moz-placeholder { color: #333333;}
+::-moz-placeholder {color: #333333;}
+:-ms-input-placeholder {color: #333333;}
+
+form {
+	background: #AD655F;
+}
+input {
+	background: #AD655F;
+	border: 2px solid black;
+
+}
+
+input:hover {
+	background: #BDBDBD;
+	border: 2px solid black;
+
+}
+
+textarea {
+	background: #AD655F;
+	border: 2px solid black;
+}
+
+textarea:hover {
+	background: #BDBDBD;
+	border: 2px solid black;
+
+}
+
+/*********** Footer Styles ***********/
+
+footer {
+  width: 100%;
+  height: 47%;
+  background: #000;
+  color: #454545;
+  padding-bottom: 2%;
+}
+
+footer h2 {
+  padding: 30px 0 0 0;
+}
+
+footer img {
+	margin: auto;
+	padding: 2% 0 .5% 0;
+	width: 10%;
+}
+
+footer #footermessage {
+  margin: auto;
+  width: 49%;
+  padding-top: 15px;
+}
+
+footer a {
+  color: #454545;
+  text-decoration: none;
+	text-align: center;
+	margin: auto;
+}
+
+footer #contactinfo {
+  text-align: center;
+  font-size: 80%;
+  padding-top: 15px;
+}
+
+footer #up {
+  text-align: center;
+  font-size: 80%;
+  padding-top: 15px;
+}
+
+.fa-mobile {
+  font-size: 150%;
+}
+
+#social {
+  font-size: 235%
+}
+
+/*********** Typography Styles ***********/
+
+h1 {
+  font-size: 355%;
+  line-height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 125%;
+  text-align: center;
+  line-height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+	font-size: 100%;
+  text-align: center;
+  line-height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #f1f1f1;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+a:hover {
+  color: #4c4c4c;
+  transition: .3s;
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+  line-height: 150%;
+  letter-spacing: .25px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+/*********** Computer Screens ***********/
+
+@media only screen and (max-width: 1336px) {
+	#container {
+		width: 100%;
+	}
+
+	header .smallscreen {
+		display: none;
+	}
+}
+
+/*********** Tablet Screens ***********/
+
+@media only screen and (max-width: 850px) {
+	header p {
+		margin-top: -80px;
+		text-align: center;
+		z-index: -1;
+	  left: 43.5%;
+	}
+
+	header p:hover {
+	  color: #c83c26;
+		margin-top: -75px;
+	  transition: .3s;
+	}
+
+	nav ul li a {
+		font-size: 125%;
+	}
+
+	#section1 a {
+		display: inline-block;
+		float: right;
+		text-align: center;
+		font-size: 1.5vw;
+		padding: 15px 20px 15px 20px;
+		text-transform: uppercase;
+	  color: white;
+		border: 3px solid white;
+		text-decoration: none;
+		margin-top: 10vw;
+		margin-right: 20vw;
+	}
+
+	#section1 a:hover {
+		color: #B0DEFF;
+		border: 3px solid;
+		transition: .3s;
+		font-family: 'Roboto', sans-serif;
+
+	}
+
+	#section1 p {
+	  width: 65%;
+		margin-top: 1.4vw;
+		padding-left: 7vw;
+		position: relative;
+	}
+
+	#section1 p {
+	  color: white;
+	  font-family: "Courier";
+	  font-size: 3vw;
+	  white-space: nowrap;
+	  overflow: hidden;
+	  width: 30em;
+	  animation: type 2s steps(60, end);
+	}
+
+	#section1 p:nth-child(2) {
+	  animation: type2 3s steps(60, end);
+	}
+
+	#section1 p:nth-child(3) {
+	  animation: type2 4s steps(60, end);
+	}
+	#section1 p:nth-child(4) {
+	  animation: type2 5s steps(60, end);
+	}
+
+
+	#section1 span {
+	  animation: blink 1s infinite;
+	}
+
+	@keyframes type {
+	  from {
+	    width: 0;
+	  }
+	}
+
+	@keyframes type2 {
+	  0% {
+	    width: 0;
+	  }
+	  50% {
+	    width: 0;
+	  }
+	  100% {
+	    width: 100;
+	  }
+	}
+
+	@keyframes blink {
+	  to {
+	    opacity: .0;
+	  }
+	}
+
+	#section2 img {
+	  margin: auto;
+	  float: left;
+		margin-left: 10vw;
+		width: 30%;
+		height: 10%;
+	}
+
+	#section2 iframe {
+		margin: auto;
+	  float: left;
+		margin-top: -2vw;
+		margin-left: 10vw;
+
+	}
+
+	#section2 object h2 {
+		width: 45%;
+		float: right;
+		margin-right: 12vw;
+		margin-top: 14vw;
+		font-size: 300%;
+	}
+
+	#section2 object #text {
+	  width: 45%;
+		float: right;
+		margin-right: 10vw;
+		margin-top: 3vw;
+	}
+
+	#section2 article #bottomtext {
+	  font-size: 90%;
+	  float: right;
+	  width: 45%;
+	  margin: 0 10% 0 0;
+	  padding-top: 2%;
+	  columns: 3;
+	  text-align: center;
+	}
+
+	#section3 img {
+	  margin: auto;
+		padding: 5% 20% 0 0;
+		width: 80%;
+	}
+
+	#section3 article {
+		margin: auto;
+		margin-right: 0;
+		padding: 5% 0% 0 15%;
+	  width: 90%;
+	}
+
+	#section4 p {
+	  margin: auto;
+	  width: 75%;
+	  padding-top: 45px;
+	}
+
+	#section5 p {
+	  margin: auto;
+	  width: 75%;
+	  padding-top: 50px;
+	}
+
+	#section6 h1 {
+		text-align: center;
+	  margin-top: 5vw;
+	}
+
+	#section6 article {
+	  float: right;
+	  width: 45%;
+	  margin: 1% 10% 0 0;
+	}
+
+	/*********** Contact Me Form Styles ***********/
+
+	#contactme {
+	  width: 100%;
+	  height: 60%;
+		margin: auto;
+	  background: #E5DAD5;
+	  padding-bottom: 5%;
+		text-align: center;
+	}
+
+	#contactme #form {
+	display: block;
+	padding-top: 30px;
+	margin-left: 25%;
+	margin-right:30%;
+	width: 40%;
+	background: #E5DAD5;
+
+
+	}
+
+	#nameID, #messageID, #emailID {
+		display: inline-block;
+		margin-left: 25%;
+		margin-right: 45%;
+		width: 50%;
+		color: black;
+	}
+
+	#submitbutton {
+		margin-left: 25%;
+		margin-right:35%;
+		width: 50%;
+		background: #E5DAD5;
+	}
+
+	#submitbutton:hover {
+		background: #B0DEFF;
+	}
+	::-webkit-input-placeholder { color: #333333; opacity: 1 !important; }
+	:-moz-placeholder { color: #333333;}
+	::-moz-placeholder {color: #333333;}
+	:-ms-input-placeholder {color: #333333;}
+
+	form {
+		background: #E5DAD5;
+	}
+	input {
+		background: #E5DAD5;
+		border: 2px solid black;
+
+	}
+
+	input:hover {
+		background: #BDBDBD;
+		border: 2px solid black;
+
+	}
+
+	textarea {
+		background: #E5DAD5;
+		border: 2px solid black;
+	}
+
+	textarea:hover {
+		background: #BDBDBD;
+		border: 2px solid black;
+
+	}
+
+	footer #footermessage {
+	  margin: auto;
+	  width: 85%;
+	  padding: 5% 0 0 3%;
+	}
+
+	footer img {
+		margin: auto;
+		padding: 2% 0 0 0;
+		width: 15%;
+	}
+}
+
+/*********** Phone Screens ***********/
+
+@media only screen and (max-width: 450px) {
+	header {
+		background: url(images/marble.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: top;
+	}
+
+	header p {
+		padding: 10% 0 3% 0;
+	}
+
+	header .bigscreen {
+		display: none;
+	}
+
+	header .smallscreen {
+		display: block;
+		padding: 25% 0 0 0;
+		width: 200%;
+	}
+
+	nav ul li a {
+		font-size: 250%;
+	}
+
+	#section1 a {
+		display: inline-block;
+		float: right;
+		text-align: center;
+		font-size: 1.5vw;
+		padding: 10px 15px 10px 15px;
+		text-transform: uppercase;
+	  color: white;
+		border: 2px solid white;
+		text-decoration: none;
+		margin-top: 10vw;
+		margin-right: 20vw;
+	}
+
+	#section1 a:hover {
+		color: #B0DEFF;
+		border: 2px solid;
+		transition: .3s;
+		font-family: 'Roboto', sans-serif;
+
+	}
+
+	#section1 p {
+	  width: 65%;
+		margin-top: 1.4vw;
+		padding-left: 7vw;
+		position: relative;
+	}
+
+	#section1 p {
+	  color: white;
+	  font-family: "Courier";
+	  font-size: 3vw;
+	  white-space: nowrap;
+	  overflow: hidden;
+	  width: 30em;
+	  animation: type 2s steps(60, end);
+	}
+
+	#section1 p:nth-child(2) {
+	  animation: type2 3s steps(60, end);
+	}
+
+	#section1 p:nth-child(3) {
+	  animation: type2 4s steps(60, end);
+	}
+	#section1 p:nth-child(4) {
+	  animation: type2 5s steps(60, end);
+	}
+
+	#section1 span {
+	  animation: blink 1s infinite;
+	}
+
+	@keyframes type {
+	  from {
+	    width: 0;
+	  }
+	}
+
+	@keyframes type2 {
+	  0% {
+	    width: 0;
+	  }
+	  50% {
+	    width: 0;
+	  }
+	  100% {
+	    width: 100;
+	  }
+	}
+
+	@keyframes blink {
+	  to {
+	    opacity: .0;
+	  }
+	}
+
+	#section2 img {
+	  margin: auto;
+	  float: left;
+		margin-left: 10vw;
+		width: 30%;
+		height: 10%;
+	}
+
+	#section2 iframe {
+		margin: auto;
+	  float: left;
+		margin-top: 5vw;
+		margin-left: 10vw;
+
+	}
+	#section2 object h2 {
+		width: 30%;
+		float: right;
+		margin-right: 12vw;
+		margin-top: 14vw;
+		font-size: 300%;
+	}
+
+	#section2 object #text {
+	  width: 45%;
+		float: right;
+		margin-right: 10vw;
+		margin-top: 3vw;
+	}
+
+
+	#section3 img {
+	  margin: auto;
+		float: none;
+		padding: 10% 5% 5% 5%;
+		width: 90%;
+	}
+
+	#section4, #section5, #section6, footer {
+		padding-bottom: 10%;
+	}
+
+	#section5 .picture {
+		display: none;
+	}
+
+	#section5 .small {
+		display: block;
+		width: 90%;
+	}
+
+
+	#section6 h1 {
+		text-align: center;
+	  margin-top: 5vw;
+	}
+
+	#section6 article {
+	  float: right;
+	  width: 45%;
+	  margin: 1% 10% 0 0;
+	}
+
+	/*********** Contact Me Form Styles ***********/
+
+	#contactme {
+	  width: 100%;
+	  height: 60%;
+		margin: auto;
+	  background: #E5DAD5;
+	  padding-bottom: 5%;
+		text-align: center;
+	}
+
+	#contactme #form {
+	display: block;
+	padding-top: 30px;
+	margin-left: 25%;
+	margin-right:30%;
+	width: 40%;
+	background: #E5DAD5;
+
+
+	}
+
+	#nameID, #messageID, #emailID {
+		display: inline-block;
+		margin-left: 25%;
+		margin-right: 45%;
+		width: 50%;
+		color: black;
+	}
+
+	#submitbutton {
+		margin-left: 25%;
+		margin-right:35%;
+		width: 50%;
+		background: #E5DAD5;
+	}
+
+	#submitbutton:hover {
+		background: #B0DEFF;
+	}
+	::-webkit-input-placeholder { color: #333333; opacity: 1 !important; }
+	:-moz-placeholder { color: #333333;}
+	::-moz-placeholder {color: #333333;}
+	:-ms-input-placeholder {color: #333333;}
+
+	form {
+		background: #E5DAD5;
+	}
+	input {
+		background: #E5DAD5;
+		border: 2px solid black;
+
+	}
+
+	input:hover {
+		background: #BDBDBD;
+		border: 2px solid black;
+
+	}
+
+	textarea {
+		background: #E5DAD5;
+		border: 2px solid black;
+	}
+
+	textarea:hover {
+		background: #BDBDBD;
+		border: 2px solid black;
+
+	}
+
+	footer img {
+		margin: auto;
+		padding: 2% 0 0 0;
+		width: 25%;
+	}
+}
