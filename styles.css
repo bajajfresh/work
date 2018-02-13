@@ -76,7 +76,7 @@ img {
 
 header {
   width: 100vw;
-  height: 60vw;
+  height: 50vw;
 /*  background: #262324;*/
 
 /**	background: url(images/marble.jpg);
@@ -298,6 +298,7 @@ nav ul li a {
   margin: auto;
   float: left;
 	margin-left: 10vw;
+	margin-top: 10%;
 	width: 30%;
 	height: 10%;
 }
@@ -463,11 +464,13 @@ nav ul li a {
 }
 
 #section5 h2 {
-	display: inline;;
+	display: inline;
  	text-align: center;
 	margin-top: -2vw;
+	margin-bottom: 1vw;
+	margin-left: 12px;
 	float: left;
-	width: 30%;
+	width: 31%;
  	font-size: 300%;
  }
  #section5 h3 {
@@ -478,7 +481,7 @@ nav ul li a {
 	margin-top: 10vw;
 	margin-bottom: none;
  	background-color: black;
- 	width: 200px;
+ 	width: 250px;
   border: solid black 2px;
  }
 
@@ -489,14 +492,14 @@ nav ul li a {
  	margin: auto;
 	margin-top: 10vw;
  	background-color: #B0DEFF;
- 	width: 200px;
+ 	width: 250px;
   border: solid #B0DEFF 2px;
  }
 
  #section5 h3 a {
 	 text-decoration: none;
 	 color:#B0DEFF;
-	 padding: 25px;
+	 padding: 15px;
  }
 
  #section5 h3 a:hover {
