@@ -76,7 +76,7 @@ img {
 
 header {
   width: 100vw;
-  height: 50vw;
+  height: 100vh;
 /*  background: #262324;*/
 
 /**	background: url(images/marble.jpg);
@@ -91,6 +91,8 @@ header {
 #mySketch{
 	z-index: -1;
 	position: absolute;
+	width: 100vw;
+  height: 100vh;
 }
 
 header img {
