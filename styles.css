@@ -301,8 +301,8 @@ nav ul li a {
   float: left;
 	margin-left: 10vw;
 	margin-top: 10%;
-	width: 30%;
-	height: 10%;
+	width: 38%;
+	height: 20%;
 }
 
 #section2 h3 {
@@ -325,7 +325,8 @@ nav ul li a {
 	width: 45%;
 	float: right;
 	margin-right: 7vw;
-	margin-top: 14vw;
+	margin-top: 13vw;
+	margin-bottom: 1vw;
 	font-size: 300%;
 }
 
@@ -333,7 +334,17 @@ nav ul li a {
   width: 45%;
 	float: right;
 	margin-right: 5vw;
-	margin-top: 1vw;
+	margin-top: vw;
+
+}
+
+#section2 h4 {
+  width: 45%;
+	float: right;
+	margin-right: 5vw;
+	margin-bottom: 1vw;
+	font-family: 'Roboto', sans-serif;
+
 
 }
 
