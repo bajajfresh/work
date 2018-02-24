@@ -202,7 +202,7 @@ nav ul li a {
 }
 
 #section1 a:hover {
-	color: #B0DEFF;
+	color: #a7d2f2;
 	border: 3px solid;
 	transition: .3s;
 	font-family: 'Roboto', sans-serif;
@@ -348,7 +348,7 @@ nav ul li a {
 }
 
 #section2 article a {
-	color: #B0DEFF;
+	color: #a7d2f2;
 	text-decoration: none;
   font-size: 90%;
   float: right;
@@ -405,7 +405,7 @@ nav ul li a {
 #section3 a:hover {
 	color: black;
 	border: 3px solid;
-	background-color: #B0DEFF;
+	background-color: #a7d2f2;
 	transition: .3s;
 	font-family: 'Roboto', sans-serif;
 
@@ -457,12 +457,12 @@ nav ul li a {
   margin: auto;
 	width: 60.3333%;
 	height: 50%;
-	border: 3px solid black;
+	border: 1px solid black;
 
 }
 
 #section5 img:hover {
-	border: 3px solid #B0DEFF;
+	border: 1px solid #a7d2f2;
 
 }
 #section5 .small {
@@ -503,14 +503,14 @@ nav ul li a {
  	color: black;
  	margin: auto;
 	margin-top: 10vw;
- 	background-color: #B0DEFF;
+ 	background-color: #a7d2f2;
  	width: 250px;
-  border: solid #B0DEFF 2px;
+  border: solid #a7d2f2 2px;
  }
 
  #section5 h3 a {
 	 text-decoration: none;
-	 color:#B0DEFF;
+	 color:#a7d2f2;
 	 padding: 15px;
  }
 
@@ -597,7 +597,7 @@ background: #AD655F;
 }
 
 #submitbutton:hover {
-	background: #B0DEFF;
+	background: #a7d2f2;
 }
 ::-webkit-input-placeholder { color: #333333; opacity: 1 !important; }
 :-moz-placeholder { color: #333333;}
@@ -771,7 +771,7 @@ p {
 	}
 
 	#section1 a:hover {
-		color: #B0DEFF;
+		color: #a7d2f2;
 		border: 3px solid;
 		transition: .3s;
 		font-family: 'Roboto', sans-serif;
@@ -950,7 +950,7 @@ p {
 	}
 
 	#submitbutton:hover {
-		background: #B0DEFF;
+		background: #a7d2f2;
 	}
 	::-webkit-input-placeholder { color: #333333; opacity: 1 !important; }
 	:-moz-placeholder { color: #333333;}
@@ -1039,7 +1039,7 @@ p {
 	}
 
 	#section1 a:hover {
-		color: #B0DEFF;
+		color: #a7d2f2;
 		border: 2px solid;
 		transition: .3s;
 		font-family: 'Roboto', sans-serif;
@@ -1203,7 +1203,7 @@ p {
 	}
 
 	#submitbutton:hover {
-		background: #B0DEFF;
+		background: #a7d2f2;
 	}
 	::-webkit-input-placeholder { color: #333333; opacity: 1 !important; }
 	:-moz-placeholder { color: #333333;}
